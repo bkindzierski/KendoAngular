@@ -1,6 +1,6 @@
 <div class="courses-panel">
 
-  <h3>Kendo Components </h3>
+  <h3>Super Cuts Employee Scheduler </h3>
   <!-- <h3>All Courses {{counter()}}</h3> -->
   <!-- <h3>All Courses {{values().join(', ')}}</h3> -->
 <!-- 
@@ -9,11 +9,11 @@
 
 
   <button class="btn">
-    Add Component
+    Add Event
   </button>
 
-    <button class="btn">
-    toObservable()
+  <button class="btn">
+    Employee Scheduler
   </button> 
   <!-- <button class="btn">
     Add Course
@@ -26,13 +26,19 @@
 
   <mat-tab-group>
 
-    <mat-tab label="Beginners">
+    <mat-tab label="Stylist">      
+      <div style="display: flex; margin-top:2em;">        
+          <!-- <kendo-calendar></kendo-calendar> -->
+           <my-kendo-scheduler></my-kendo-scheduler>
+      </div>
+    
       <!-- <courses-card-list #beginnersList  matTooltip="These are the beginner courses" (courseUpdated)="onCourseUpdated($event)"                        
                           (courseDeleted)="onCourseDeleted($event)" 
                           [courses]="begginerCourses()"></courses-card-list> -->
     </mat-tab>
 
-    <mat-tab label="Advanced">
+    <mat-tab label="Managers">
+      <my-kendo-scheduler></my-kendo-scheduler>
       <!-- <courses-card-list #advancedList (courseUpdated)="onCourseUpdated($event)" 
                           (courseDeleted)="onCourseDeleted($event)" 
                           [courses]="advancedCourses()"></courses-card-list>       -->

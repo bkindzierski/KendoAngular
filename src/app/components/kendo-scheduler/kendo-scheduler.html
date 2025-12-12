@@ -1,0 +1,37 @@
+<div class="example-config">
+      <span class="k-checkbox-wrap">
+        <input
+          id="k-is-allday-chkbox"
+          type="checkbox"
+          kendoCheckBox
+          [(ngModel)]="isAllDay"
+        />
+        &nbsp;Toggle all day slot visibility
+      </span>
+    </div>
+<kendo-scheduler  
+        [kendoSchedulerBinding]="events"
+        [selectedDate]="selectedDate"
+        startTime="07:00"
+        endTime="19:00"
+        style="height: 650px;">
+
+    <kendo-scheduler-month-view [eventHeight]="eventHeight">
+    </kendo-scheduler-month-view>
+    
+    <kendo-scheduler-week-view> </kendo-scheduler-week-view>
+
+    <kendo-scheduler-day-view 
+        [allDaySlot]="isAllDay"
+        startTime="08:00" 
+        endTime="18:00">
+    </kendo-scheduler-day-view>
+
+    <!-- <kendo-scheduler-multi-day-view [numberOfDays]="3"> 
+    </kendo-scheduler-multi-day-view>
+
+    
+
+    <kendo-scheduler-work-week-view> </kendo-scheduler-work-week-view> -->
+    
+</kendo-scheduler>

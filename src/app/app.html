@@ -1,8 +1,11 @@
 
-<!-- <kendo-calendar></kendo-calendar>
-<router-outlet></router-outlet> -->
+
 <mat-sidenav-container fullscreen>
-<h1>Hello Kendo UI for Angular!</h1>
+  <div  style="display: flex;">
+    <img src="logo.jpg" alt="super cuts">
+    <h1>Hello Super Cuts!</h1>
+  </div>
+
   <mat-sidenav #start (click)="start.close()">
 
     <mat-nav-list>
@@ -67,5 +70,12 @@
   <!-- <loading></loading> -->
 
   <router-outlet/>
-
+  <footer>
+    <p>Copyright &copy; 2025 Your Company</p>
+    <nav>
+      <a href="/about">About Us</a> |
+      <a href="/contact">Contact</a> |
+      <a href="/privacy">Privacy Policy</a>
+    </nav>
+  </footer>
 </mat-sidenav-container>
