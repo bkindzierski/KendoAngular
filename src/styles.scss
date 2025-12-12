@@ -40,3 +40,16 @@ $angular-signals-course-theme: mat.m2-define-light-theme((
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+footer {
+  background-color: #333; /* Dark background */
+  color: white; /* White text */
+  text-align: center; /* Centers the text within the footer */
+  padding: 10px 0; /* Adds vertical padding */
+  width: 100%; /* Ensures the footer spans the full width */
+}
+
+footer a {
+  color: #4da6ff; /* Styles links within the footer */
+  text-decoration: none; /* Removes underlines from links */
+  margin: 0 10px;
+}
