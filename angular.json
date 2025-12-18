@@ -30,7 +30,8 @@
               {
                 "input": "node_modules/@progress/kendo-theme-default/dist/all.css"
               },
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/@progress/kendo-theme-bootstrap/dist/all.css"
             ]
           },
           "configurations": {
@@ -39,7 +40,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "500kB",
-                  "maximumError": "1MB"
+                  "maximumError": "4MB"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -88,10 +89,11 @@
               }
             ],
             "styles": [
-              {
+              {               
                 "input": "node_modules/@progress/kendo-theme-default/dist/all.css"
               },
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/@progress/kendo-theme-bootstrap/dist/all.css"
             ]
           }
         }
