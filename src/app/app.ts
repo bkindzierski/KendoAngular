@@ -16,7 +16,7 @@ import {MatIconButton} from "@angular/material/button";
   imports: [RouterOutlet,MatSidenav, MatSidenavContainer, MatListItem, MatNavList,MatIcon,MatToolbar, MatIconButton],
   providers:[RouterOutlet],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrl: './app.scss'
 })
 export class App {
   protected readonly title = signal('kendo-angular-app');
