@@ -24,4 +24,16 @@ export class App {
   constructor(router: RouterOutlet, ){
     
   }
+
+  showSidebar():any {
+    //console.log('showSidebar ...')
+    var sidebar = document.querySelector('.sidebar') as HTMLElement;
+    return sidebar.style.display = 'flex'  
+  }
+  closeSidebar() : any{
+     //console.log('showSidebar ...')
+    var sidebar = document.querySelector('.sidebar') as HTMLElement;
+    return sidebar.style.display = 'none'
+  }
+  
 }
