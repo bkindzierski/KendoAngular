@@ -35,5 +35,17 @@ export class App {
     var sidebar = document.querySelector('.sidebar') as HTMLElement;
     return sidebar.style.display = 'none'
   }
-  
+
+  toggleSubMenu(element:string) : any{
+    console.log('element: ', element);
+    if (element =='btn1') {
+      console.log(`Button clicked! The button text is: `);
+      let btn1 = document.getElementById('btn1') as HTMLButtonElement;
+      btn1.nextElementSibling.classList.toggle('show');
+    }
+    else if(element =='btn2'){
+      let btn2 = document.getElementById('btn2') as HTMLButtonElement;
+      btn2.nextElementSibling.classList.toggle('show');
+    }
+  }
 }
