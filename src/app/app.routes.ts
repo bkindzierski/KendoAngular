@@ -2,6 +2,7 @@ import { App } from './app';
 import { Routes } from '@angular/router';
 import {MyKendoScheduler} from './components/kendo-scheduler/kendo-scheduler'
 import { Home } from './components/home/home'
+import { Landing } from './components/landing/landing';
 
 export const routes: Routes = [
     {
@@ -18,7 +19,15 @@ export const routes: Routes = [
         //     lessons: courseLessonsResolver
         // }
     },
-
+    {
+        path:"landing",
+        component: Landing,
+        //canActivate:[isUserAuthenticated],
+        // resolve:{
+        //     course: courseResolver,
+        //     lessons: courseLessonsResolver
+        // }
+    },
     {
     path: '**',
     redirectTo: '/'

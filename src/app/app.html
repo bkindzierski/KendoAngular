@@ -1,5 +1,4 @@
 
-
 <mat-sidenav-container fullscreen>
   <div  style="display: flex;">
     <img src="logo.jpg" alt="super cuts">
@@ -83,19 +82,20 @@
     <ul>
       <li>
         <span class="logo">Super Cuts</span>
-        <button id="toggle- btn">
+        <button id="toggle-btn" (click)="toggleSideBar()">
           <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"/></svg>
         </button> 
       </li>
-      <li class="active"><a href="index.html">
+      <li class="active">
+        <a routerLink="home">
           <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>
           <span> Home </span>
         </a>
       </li>
-      <li>
-          <a href="index.html">
+      <li>          
+          <a routerLink="landing">
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M200-80v-800h80v80h560l-80 200 80 200H280v320h-80Zm80-640v240-240Zm220 200q33 0 56.5-23.5T580-600q0-33-23.5-56.5T500-680q-33 0-56.5 23.5T420-600q0 33 23.5 56.5T500-520Zm-220 40h442l-48-120 48-120H280v240Z"/></svg>
-            <span> BDK </span>
+            <span> Landing </span>
           </a>
       </li>
       <li>
