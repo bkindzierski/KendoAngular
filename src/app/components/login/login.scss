@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    // background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+
+    align-items: center;
+   
+    margin: 0;
+    background-color: #f4f4f4;
+   
+}
+h2{
+     display: flex;
+    justify-content: center;
+}
+.input-group {
+    margin-bottom: 1rem;
+}
+.input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #666;
+}
+.input-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}

@@ -44,7 +44,7 @@ body {
   margin: 0; 
   font-family: Roboto, "Helvetica Neue", sans-serif; 
   display:grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: auto 1fr;  
 }
 
 
@@ -120,10 +120,19 @@ nav a:hover{
   background-color: #f0f0f0;
   border-right:  1px solid;
 
-  position: sticky;
-  top:0;
+  position: absolute;
+  top:205px;
   align-self: start;
+
+  transition: 300ms ease-in-out;
+  overflow: hidden;
+  text-wrap: nowrap;
 }
+#asidebar.close{
+  padding:5px;
+  width:60px;
+}
+
 #asidebar ul{
   list-style: none;
 }
@@ -135,6 +144,7 @@ nav a:hover{
     font-weight: 600;
   }
 }
+
 #asidebar ul li.active a{
   color:#4da6ff;
   svg{
@@ -171,7 +181,15 @@ nav a:hover{
 #asidebar .sub-menu.show{
  grid-template-rows: 1fr;
 }
-
+#asidebar .sub-menu a{
+  padding-left: 2em;
+}
+.rotate svg:last-child{
+  rotate:-180deg;
+}
+.dropdown-btn svg{
+  transition:200ms ease;
+}
 .dropdown-btn{
   width:100%;
   text-align: left;
@@ -180,7 +198,29 @@ nav a:hover{
   font:inherit;
   cursor: pointer;
 }
+#toggle-btn{
+  margin-left: auto;
+  padding:1em;
+  border:none;
+  border-radius: .5em;
+  background: none;
+  cursor:pointer;
+  svg{
+    transition:rotate 150ms ease;
+  }
+}
+#toggle-btn:hover{
+  background-color: #c2c0c0;
+}
 
+@media (max-width:800px) {
+  body{
+    grid-template-columns: 1fr;
+  }
+  main{
+    padding:2em 1em 60px 1em
+  }
+}
 
 footer {
   background-color: #333; /* Dark background */
