@@ -1,10 +1,21 @@
-.landing{
+.contanier{
     display: flex;
-    justify-content: center; /* Centers horizontally */
-    // align-items: center;     /* Centers vertically */            
-    // margin-left: 200px;
-    
-   h1 {
-     padding-right: 50px;
-   }
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh; /* makes container fill the viewport height */
+    width:100%;
+}
+.header{
+  text-align: center;
+  margin-bottom: 12px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #2c3e50;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 800px;
+  padding: 40px;  
 }

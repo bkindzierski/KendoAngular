@@ -1,0 +1,8 @@
+<!-- <p>gridview works!</p> -->
+ <kendo-grid [data]="stores()">
+        <kendo-grid-column field="storeId" title="Store ID"> </kendo-grid-column>
+        <kendo-grid-column field="storeName" title="Name"> </kendo-grid-column>
+        <kendo-grid-column field="address.street" title="Street"> </kendo-grid-column>
+        <kendo-grid-column field="address.city" title="City"> </kendo-grid-column>
+        <kendo-grid-column field="contact.phone" title="Contact"> </kendo-grid-column>         
+    </kendo-grid> 
