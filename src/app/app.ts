@@ -24,7 +24,7 @@ export class App {
   sideBar// =  document.getElementById('asidebar');
   toggleBtn// = document.getElementById('toggle-btn') as HTMLButtonElement;
 
-  constructor(router: RouterOutlet, ){
+  constructor(router: RouterOutlet){
     // this.button = document.getElementById('btn1')!
     // this.button.addEventListener('click', this.toggleSubMenu.bind(this));
     

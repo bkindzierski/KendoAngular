@@ -13,7 +13,7 @@ export const routes: Routes = [
     },
     {
         path:"home",
-        component: MyKendoScheduler,
+        component: Home,
         //canActivate:[isUserAuthenticated],
         // resolve:{
         //     course: courseResolver,
@@ -22,7 +22,7 @@ export const routes: Routes = [
     },
     {
         path:"scheduler",
-        component: MyKendoScheduler,
+        component: Home,
         //canActivate:[isUserAuthenticated],
         // resolve:{
         //     course: courseResolver,
