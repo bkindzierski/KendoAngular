@@ -8,8 +8,7 @@ import { AccountLogin } from './components/account/account-login';
 
 export const routes: Routes = [
     {
-        path: '',
-        //component: Login,
+        path: '',        
         component: AccountLogin,
         //canActivate:[isUserAuthenticated]
     },

@@ -1,0 +1,38 @@
+{
+	"storeId": "ST12345",
+	"storeName": "The Gadget Hub",
+	"address": {
+		"street": "123 Tech Avenue",
+		"city": "Innovate City",
+		"state": "CA",
+		"zipCode": "90210"
+	},
+	"contact": {
+		"phone": "555-123-4567",
+		"email": "info@gadgethub.com"
+	},	
+	"products": [
+		{
+			"productId": "P987",
+			"name": "Smartwatch X",
+			"category": "Wearables",
+			"price": 199.99,
+			"inStock": true
+		},
+		{
+			"productId": "P101",
+			"name": "Wireless Earbuds",
+			"category": "Audio",
+			"price": 79.5,
+			"inStock": true
+		},
+		{
+			"productId": "P202",
+			"name": "Portable Charger",
+			"category": "Accessories",
+			"price": 25.0,
+			"inStock": false
+		}
+	],
+	"isActive": true
+}
