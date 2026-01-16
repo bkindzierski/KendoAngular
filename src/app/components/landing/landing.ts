@@ -1,53 +1,63 @@
-import { Component, signal,computed, effect, ChangeDetectorRef, } from '@angular/core';
+import { Component, signal,computed, effect, ChangeDetectorRef, OnInit, } from '@angular/core';
 import { Storedata } from '../../../services/storedata';
 import { Store } from '../../../models/store';
 import { KENDO_LABELS } from "@progress/kendo-angular-label";
-import { GridDataResult, KENDO_GRID } from '@progress/kendo-angular-grid';
-import { CommonModule } from '@angular/common';
-import { Gridview } from '../landing/gridview/gridview'
+import { GridComponent, GridDataResult, KENDO_GRID } from '@progress/kendo-angular-grid';
+import { CommonModule,AsyncPipe } from '@angular/common';
+//import { Gridview } from '../landing/gridview/gridview'
 import { Observable } from 'rxjs/internal/Observable';
-
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-landing',
-  imports: [CommonModule,KENDO_LABELS,KENDO_GRID,Gridview],
+  //imports: [CommonModule,KENDO_LABELS,KENDO_GRID,Gridview],
+  imports: [CommonModule,KENDO_LABELS,KENDO_GRID],
   templateUrl: './landing.html',
   styleUrl: './landing.scss',
 })
-export class Landing {
+export class Landing  {
 
   #stores = signal<Store[]>([]);
-  public gridStores:Store[] = [];
- 
-  //public gridData: Store[] = [];
+  // public gridStores:Store[] = [];
+  
+  private serviceSubscription: Subscription;
+  public gridStores$!: Observable<Store[]>; // Data source as an Observable
 
   constructor(private storeService: Storedata,
-            private cdr: ChangeDetectorRef){
-    this.loadStores(); 
+              private cdr: ChangeDetectorRef)  {
    
+    this.loadStores();    
     
     effect(() => {
-      console.log('Stores in landing page:', this.#stores());
-      this.gridStores = this.#stores();
-      this.cdr.detectChanges();
+      //console.log('Stores in landing page:', this.#stores());
+      //this.gridStores = this.#stores();
+      //this.cdr.detectChanges();
     });
   }
 
-  ngOnInit(){
-    //this.loadStores(); 
-    
+  public  ngOnInit(): void{  
+
+    //this.gridStores$ = this.storeService.getStoreDataObservable();
+    // this.serviceSubscription = this.storeService.getStoreDataObservable().subscribe((resp:Store[])=>{
+    //         this.#stores.set(resp);          
+    //});      
   }
 
- 
+//  public  ngOnDestroy(): void {
+//     if (this.serviceSubscription) {
+//       this.serviceSubscription.unsubscribe();
+//     }    
+//   }
+
   async loadStores(){ 
     try {
         //**promise */
-        // const accounts = await this.accountService.getAccountData(); 
-        // this.#accounts.set(accounts); 
+        // const stores = await this.storeService.getStoreData(); 
+        // this.#stores.set(stores);
+
         /**obervable */
-        this.storeService.getStoreDataObservable().subscribe((resp:Store[])=>{
-            this.#stores.set(resp); 
-            //this.gridStores = resp;
+        this.serviceSubscription = this.storeService.getStoreDataObservable().subscribe((resp:Store[])=>{
+            this.#stores.set(resp);                                      
         });
         
       } 
@@ -61,9 +71,3 @@ export class Landing {
     return stores;
   });
 }
-// export class Product{
-//      ProductID: number;
-//     ProductName:string;
-//     UnitPrice: number;
-//     Category: object;
-// }

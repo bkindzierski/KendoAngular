@@ -30,6 +30,7 @@ public tbfillMode: InputFillMode = "outline";
 
 username: { get; set; }
 password: {get; set;}
+ public showPassword: boolean = false;
 constructor(private router: Router){
 
 }
@@ -53,10 +54,13 @@ ngOnInit(): void {
     //console.log('Form Submitted!', this.form.value)
     
     if (this.form.get('username').value == 'Briank' && this.form.get('password').value == '123445'){
-      console.log('logged in as : ', this.form.get('username').value);
-      this.router.navigate(['/landing']);
+        console.log('logged in as : ', this.form.get('username').value);
+        this.router.navigate(['/landing']);
     }
-  
+    else{
+      this.form.reset();
+      this.showPassword = false;
+    }  
  }
  
 }

@@ -1,0 +1,24 @@
+<div class="contanier">
+    <!-- <p>landing works!</p> -->
+    <!-- <h1>landing works!</h1>
+    <h1>landing works!</h1>
+    <h1>landing works!</h1>    -->
+    <div class="header">
+         <kendo-label>Grid Example</kendo-label> 
+    </div>
+     <div class="header">
+         <kendo-grid
+            [data]="view | async"
+            [loading]="service.loading"
+            [pageSize]="state.take"
+            [skip]="state.skip"
+            [pageable]="true"
+            (pageChange)="pageChange($event)">
+
+            <kendo-grid-column field="CategoryID" [width]="130"></kendo-grid-column>
+            <kendo-grid-column field="CategoryName" [width]="200"></kendo-grid-column>
+            <kendo-grid-column field="Description"> </kendo-grid-column>
+           
+        </kendo-grid>
+    </div>
+</div>  

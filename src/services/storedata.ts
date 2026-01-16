@@ -1,26 +1,30 @@
 
 import {Injectable} from "@angular/core";
 import { HttpClient, HttpParams } from "@angular/common/http";
-import {firstValueFrom, Observable} from "rxjs";
+import {BehaviorSubject, firstValueFrom, Observable} from "rxjs";
 import {Store} from "../models/store";
-import {map} from "rxjs/operators";
+import {map, tap} from "rxjs/operators";
+import { GridDataResult } from "@progress/kendo-angular-grid";
+import { State, toODataString } from "@progress/kendo-data-query";
 
 
 @Injectable({
   providedIn: 'root',
 })
 
-export class Storedata {
-  
+export class Storedata extends BehaviorSubject<GridDataResult> {
+  public loading: boolean = false;
   private apiUrl: string = './assets/sample-data/storedata.json';
 
-  constructor(private http: HttpClient){
+  constructor(private http: HttpClient) {
+    super({ data: [], total: null });
+  }  
 
-  }
   
+  /********************************************* */
   /** as observable */
   getStoreDataObservable():Observable<Store[]> {
-    return this.http.get<Store[]>(this.apiUrl);
+    return this.http.get<Store[]>(this.apiUrl);      
   }
 
   /** as promise */

@@ -6,20 +6,19 @@
     <div class="header">
          <kendo-label>Store listing</kendo-label> 
     </div>
-    <!-- <app-gridview [stores]="getStores()"></app-gridview> -->
-    <kendo-grid [data]="getStores()">
-        <kendo-grid-column field="storeId" title="Store ID"> </kendo-grid-column>
-        <kendo-grid-column field="storeName" title="Name"> </kendo-grid-column>
-        <kendo-grid-column field="address.street" title="Street"> </kendo-grid-column>
-        <kendo-grid-column field="address.city" title="City"> </kendo-grid-column>
-        <kendo-grid-column field="contact.phone" title="Contact"> </kendo-grid-column>         
-    </kendo-grid>    
-
-   <pre>{{ getStores() | json }}</pre>
-     <!-- <kendo-grid [data]="gridData">
-        <kendo-grid-column field="ProductID" title="ID"> </kendo-grid-column>
-        <kendo-grid-column field="ProductName" title="Name"> </kendo-grid-column>
-        <kendo-grid-column field="Category.CategoryName" title="Category"> </kendo-grid-column>
-        <kendo-grid-column field="UnitPrice" title="Price"> </kendo-grid-column>
-    </kendo-grid> -->
+    <div class="header">
+         <!-- <app-gridview [stores]="getStores()"></app-gridview> -->   
+        <kendo-grid [data]="getStores()">
+            <kendo-grid-column field="storeId" title="Store ID"> </kendo-grid-column>
+            <kendo-grid-column field="storeName" title="Name"> </kendo-grid-column>
+            <kendo-grid-column field="address.street" title="Street"> </kendo-grid-column>
+            <kendo-grid-column field="address.city" title="City"> </kendo-grid-column>
+            <kendo-grid-column field="contact.phone" title="Contact"> </kendo-grid-column>         
+        </kendo-grid> 
+    </div>
+      
+     <div>
+        <pre>{{ getStores() | json }}</pre>
+    </div>   
+    
 </div>

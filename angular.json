@@ -19,7 +19,7 @@
               "@angular/localize/init"
             ],
             "tsConfig": "tsconfig.app.json",
-            "assets": [
+            "assets": [              
               "src/assets",
               {
                 "glob": "**/*",
