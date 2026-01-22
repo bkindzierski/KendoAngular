@@ -6,6 +6,7 @@ import { Landing } from './components/landing/landing';
 //import { Login } from './components/login/login';
 import { AccountLogin } from './components/account/account-login';
 import { Gridpoc } from './components/gridpoc/gridpoc';
+import { Mighome } from './components/mighome/mighome';
 
 export const routes: Routes = [
     {
@@ -42,8 +43,8 @@ export const routes: Routes = [
         // }
     },
      {
-        path:"gridpoc",
-        component: Gridpoc,
+        path:"Mighome",
+        component: Mighome,
         //component: Gridpoc,
         //canActivate:[isUserAuthenticated],
         // resolve:{

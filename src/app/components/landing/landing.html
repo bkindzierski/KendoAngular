@@ -6,7 +6,7 @@
     <div class="header">
          <kendo-label>Store listing</kendo-label> 
     </div>
-    <div class="header">
+    <div class="gridview">
          <!-- <app-gridview [stores]="getStores()"></app-gridview> -->   
         <kendo-grid [data]="getStores()">
             <kendo-grid-column field="storeId" title="Store ID"> </kendo-grid-column>
@@ -17,8 +17,8 @@
         </kendo-grid> 
     </div>
       
-     <div>
+     <!-- <div>
         <pre>{{ getStores() | json }}</pre>
-    </div>   
+    </div>    -->
     
 </div>

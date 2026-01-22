@@ -18,10 +18,12 @@ import { Subscription } from 'rxjs';
 export class Landing  {
 
   #stores = signal<Store[]>([]);
+  //stores = signal<Store[]>([]);
   // public gridStores:Store[] = [];
   
   private serviceSubscription: Subscription;
   public gridStores$!: Observable<Store[]>; // Data source as an Observable
+  public view: Observable<GridDataResult>;
 
   constructor(private storeService: Storedata,
               private cdr: ChangeDetectorRef)  {
@@ -29,25 +31,15 @@ export class Landing  {
     this.loadStores();    
     
     effect(() => {
-      //console.log('Stores in landing page:', this.#stores());
-      //this.gridStores = this.#stores();
-      //this.cdr.detectChanges();
+      //console.log('Stores in landing page:', this.#stores());      
     });
   }
 
   public  ngOnInit(): void{  
-
-    //this.gridStores$ = this.storeService.getStoreDataObservable();
-    // this.serviceSubscription = this.storeService.getStoreDataObservable().subscribe((resp:Store[])=>{
-    //         this.#stores.set(resp);          
-    //});      
+    
   }
 
-//  public  ngOnDestroy(): void {
-//     if (this.serviceSubscription) {
-//       this.serviceSubscription.unsubscribe();
-//     }    
-//   }
+ 
 
   async loadStores(){ 
     try {
@@ -58,7 +50,7 @@ export class Landing  {
         /**obervable */
         this.serviceSubscription = this.storeService.getStoreDataObservable().subscribe((resp:Store[])=>{
             this.#stores.set(resp);                                      
-        });
+        });       
         
       } 
       catch (err) {
@@ -70,4 +62,10 @@ export class Landing  {
     const stores = this.#stores();
     return stores;
   });
+
+  public  ngOnDestroy(): void {
+    if (this.serviceSubscription) {
+      this.serviceSubscription.unsubscribe();
+    }    
+  }
 }
