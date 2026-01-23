@@ -6,8 +6,8 @@
         <kendo-textbox
           formControlName="userName"
           #username
-          [clearButton]="true"
-        ></kendo-textbox>
+          [clearButton]="true">
+        </kendo-textbox>
         <kendo-formerror>Username is required</kendo-formerror>
       </kendo-formfield>
 
@@ -16,8 +16,8 @@
         <kendo-textbox
           formControlName="email"
           #email
-          [clearButton]="true"
-        ></kendo-textbox>
+          [clearButton]="true">
+        </kendo-textbox>
         @if (accountDetails.controls.email.errors?.required) 
         {
             <kendo-formerror>Email is required</kendo-formerror>
@@ -33,8 +33,7 @@
           formControlName="password"
           #password
           [type]="passInputType"
-          [clearButton]="true"
-        >
+          [clearButton]="true">
           <ng-template kendoTextBoxSuffixTemplate>
             <button
               kendoButton
@@ -56,8 +55,7 @@
         <kendo-fileselect
           #avatar
           formControlName="avatar"
-          [restrictions]="restrictions"
-        >
+          [restrictions]="restrictions">
         </kendo-fileselect>
 
         <kendo-formhint>Allowed extensions are jpg, jpeg or png</kendo-formhint>

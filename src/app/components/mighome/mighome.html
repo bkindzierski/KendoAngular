@@ -18,14 +18,14 @@
       </kendo-stepper>
       <form class="k-form k-form-md" [formGroup]="form">
         @if (currentStep === 0) {
-        <app-accountdetails [accountDetails]="currentGroup"> </app-accountdetails>
-        <!-- <app-accountdetails> </app-accountdetails> -->
+          <app-accountdetails [accountDetails]="currentGroup"> </app-accountdetails>
+          <!-- <app-accountdetails> </app-accountdetails> -->
         } @if (currentStep === 1) {
-        <!-- <app-personaldetails [personalDetails]="currentGroup"> </app-personaldetails> -->
-        <app-personaldetails></app-personaldetails>
+          <app-personaldetails [personalDetails]="currentGroup"> </app-personaldetails>
+          <!-- <app-personaldetails></app-personaldetails> -->
         } @if (currentStep === 2) {
-        <!-- <app-paymentdetails [paymentDetails]="currentGroup"> </app-paymentdetails> -->
-        <app-paymentdetails> </app-paymentdetails>
+          <app-paymentdetails [paymentDetails]="currentGroup"> </app-paymentdetails>
+          <!-- <app-paymentdetails> </app-paymentdetails> -->
         }
 
         <span class="k-form-separator"></span>

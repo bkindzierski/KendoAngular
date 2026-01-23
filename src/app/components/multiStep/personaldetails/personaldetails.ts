@@ -1,11 +1,47 @@
-import { Component } from '@angular/core';
+import { Component, Input } from "@angular/core";
+import { FormGroup, ReactiveFormsModule } from "@angular/forms";
+import { KENDO_INPUTS } from "@progress/kendo-angular-inputs";
+import { KENDO_LABEL } from "@progress/kendo-angular-label";
+import { KENDO_BUTTONS } from "@progress/kendo-angular-buttons";
+import { KENDO_DROPDOWNS } from "@progress/kendo-angular-dropdowns";
 
 @Component({
   selector: 'app-personaldetails',
-  imports: [],
+  imports: [ ReactiveFormsModule,KENDO_LABEL,KENDO_INPUTS,KENDO_BUTTONS,KENDO_DROPDOWNS],
   templateUrl: './personaldetails.html',
   styleUrl: './personaldetails.scss',
 })
 export class Personaldetails {
+
+  @Input() public personalDetails: FormGroup;
+
+  public countries: Array<string> = [
+    "Albania",
+    "Andorra",
+    "Armenia",
+    "Austria",
+    "Azerbaijan",
+    "Belarus",
+    "Belgium",
+    "Bosnia & Herzegovina",
+    "Bulgaria",
+    "Croatia",
+    "Cyprus",
+    "Czech Republic",
+    "Denmark",
+    "Estonia",
+    "Finland",
+    "France",
+    "Moldova",
+    "United States"
+  ];
+
+  constructor(){
+
+  }
+
+  ngOnInit(){
+
+  }
 
 }
