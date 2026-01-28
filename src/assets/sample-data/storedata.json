@@ -1,0 +1,1371 @@
+[
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+    "storeId": "ST76565",
+    "storeName": "Downtown Store",
+    "address": {
+      "street": "123 Main St",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10001"
+    },
+    "contact": {
+      "phone": "555-0101",
+      "email": "downtown@example.com"
+    },
+	"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+  },
+  {
+    "storeId": "CT15454",
+    "storeName": "Uptown Branch",
+    "address": {
+      "street": "456 Park Ave",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10022"
+    },
+    "contact": {
+      "phone": "555-0102",
+      "email": "uptown@example.com"
+    },
+	"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+  },
+  {
+    "storeId": "CT98165",
+    "storeName": "Brooklyn Location",
+    "address": {
+      "street": "789 Bedford Ave",
+      "city": "Brooklyn",
+      "state": "NY",
+      "zip": "11211"
+    },
+    "contact": {
+      "phone": "555-0103",
+      "email": "brooklyn@example.com"
+    },
+	"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+  },
+  {
+    "storeId": "ST77334",
+    "storeName": "Queens Center",
+    "address": {
+      "street": "321 Queens Blvd",
+      "city": "Queens",
+      "state": "NY",
+      "zip": "11375"
+    },
+    "contact": {
+      "phone": "555-0104",
+      "email": "queens@example.com"
+    },
+	"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+  },
+  {
+    "storeId": "ST54322",
+    "storeName": "Staten Island Shop",
+    "address": {
+      "street": "987 Richmond Ave",
+      "city": "Staten Island",
+      "state": "NY",
+      "zip": "10314"
+    },
+    "contact": {
+      "phone": "555-0105",
+      "email": "statenisland@example.com"
+    },
+	"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+  	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "XXX99991",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "TTTT09090",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	},
+	{
+		"storeId": "ST12345",
+		"storeName": "The Gadget Hub",
+		"address": {
+			"street": "123 Tech Avenue",
+			"city": "Innovate City",
+			"state": "CA",
+			"zipCode": "90210"
+		},
+		"contact": {
+			"phone": "555-123-4567",
+			"email": "info@gadgethub.com"
+		},	
+		"products": [
+			{
+				"productId": "P987",
+				"name": "Smartwatch X",
+				"category": "Wearables",
+				"price": 199.99,
+				"inStock": true
+			},
+			{
+				"productId": "P101",
+				"name": "Wireless Earbuds",
+				"category": "Audio",
+				"price": 79.5,
+				"inStock": true
+			},
+			{
+				"productId": "P202",
+				"name": "Portable Charger",
+				"category": "Accessories",
+				"price": 25.0,
+				"inStock": false
+			}
+		],
+	"isActive": true
+	}
+]

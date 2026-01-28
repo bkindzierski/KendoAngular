@@ -1,6 +1,51 @@
-<div class="landing">
-    <h1>landing works!</h1>
-    <h1>landing works!</h1>
-    <h1>landing works!</h1>
-    <h1>landing works!</h1>   
+<div class="contanier">
+    <!-- <p>landing works!</p> -->
+
+    <div class="header">
+        <kendo-svgicon [icon]="editIcon" size="xxlarge"></kendo-svgicon>
+        <kendo-label>Store listing</kendo-label>
+    </div>
+    <div class="gridview">
+         <!-- <app-gridview [stores]="getStores()"></app-gridview> -->
+        <!-- <kendo-grid [data]="getStores()" 
+                    [height]="410"
+                    [selectable]="selectableSettings"
+                    (selectionChange)="onSelectionChange($event)"
+                    [pageable]="true"
+                    [skip]="skip"
+                    [pageSize]="pageSize"
+                    (pageChange)="onPageChange($event)"
+                    [sortable]="true"
+                    [sort]="sort"
+                    (sortChange)="onSortChange($event)"> -->
+             <kendo-grid [data]="getStores()" 
+                    [height]="410"
+                    [selectable]="selectableSettings"
+                    (selectionChange)="onSelectionChange($event)"
+                    [pageable]="true"
+                    [skip]="gridState.skip"
+                    [pageSize]="gridState.take"                    
+                    [sortable]="true"
+                    [sort]="gridState.sort"
+                    (dataStateChange)="onDataStateChange($event)"
+                    [groupable]="true"
+                    [group]="gridState.group"
+                    [filterable]="true"
+                    [filter]="gridState.filter">      
+            <kendo-grid-column field="storeId" title="Store ID" [width]="100" [filterable]="false">
+                <!--<ng-template kendoGridCellTemplate let-dataItem>
+                    <img src="getIndicatorImage('lob')" class="stores-icon">
+                </ng-template> -->
+            </kendo-grid-column>
+            <kendo-grid-column field="storeName" title="Name" [width]="300"> </kendo-grid-column>
+            <kendo-grid-column field="address.street" title="Street"> </kendo-grid-column>
+            <kendo-grid-column field="address.city" title="City"> </kendo-grid-column>
+            <kendo-grid-column field="contact.phone" title="Contact"> </kendo-grid-column>
+        </kendo-grid>
+    </div>
+
+     <!-- <div>
+        <pre>{{ getStores() | json }}</pre>
+    </div>    -->
+
 </div>

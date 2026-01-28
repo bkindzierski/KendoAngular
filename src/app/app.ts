@@ -7,6 +7,7 @@ import {MatIcon} from "@angular/material/icon";
 import {MatToolbar} from "@angular/material/toolbar";
 import {MatIconButton} from "@angular/material/button";
 
+
 //import {LoadingIndicatorComponent} from "./loading/loading.component";
 //import {MessagesComponent} from "./messages/messages.component";
 //import { AuthService } from './services/auth.service';
@@ -24,7 +25,7 @@ export class App {
   sideBar// =  document.getElementById('asidebar');
   toggleBtn// = document.getElementById('toggle-btn') as HTMLButtonElement;
 
-  constructor(router: RouterOutlet, ){
+  constructor(router: RouterOutlet){
     // this.button = document.getElementById('btn1')!
     // this.button.addEventListener('click', this.toggleSubMenu.bind(this));
     

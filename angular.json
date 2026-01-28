@@ -19,7 +19,8 @@
               "@angular/localize/init"
             ],
             "tsConfig": "tsconfig.app.json",
-            "assets": [
+            "assets": [              
+              "src/assets",
               {
                 "glob": "**/*",
                 "input": "public"
@@ -28,10 +29,9 @@
             "styles": [
               "src/custom-theme.scss",
               {
-                "input": "node_modules/@progress/kendo-theme-default/dist/all.css"
-              },
-              "src/styles.scss",
-              "./node_modules/@progress/kendo-theme-bootstrap/dist/all.css"
+                "input": "node_modules/@progress/kendo-theme-bootstrap/dist/all.css"
+              },              
+              "src/styles.scss"              
             ]
           },
           "configurations": {
