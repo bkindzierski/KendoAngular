@@ -5,8 +5,7 @@ import {MatTab, MatTabGroup} from "@angular/material/tabs";
 import {KENDO_DATEINPUTS} from '@progress/kendo-angular-dateinputs';
 import {MyKendoScheduler} from '../kendo-scheduler/kendo-scheduler'
 import { KENDO_BUTTONS,ButtonSize,ButtonRounded,ButtonFillMode,ButtonThemeColor } from "@progress/kendo-angular-buttons";
-import {  SVGIcon,  cartIcon,  anchorIcon,  codeIcon, pencilIcon, dataIcon, fileAddIcon,
-} from "@progress/kendo-svg-icons";
+import {  SVGIcon,  cartIcon,  anchorIcon,  codeIcon, pencilIcon, dataIcon, fileAddIcon,calendarDateIcon} from "@progress/kendo-svg-icons";
 
 @Component({
   selector: 'app-home',
@@ -25,7 +24,8 @@ export class Home {
   public svgData: SVGIcon = dataIcon;
   public svgAdd: SVGIcon = fileAddIcon;
   public svgCode: SVGIcon = codeIcon;
- 
+  public calendarIcon: SVGIcon = calendarDateIcon;
+
   constructor(){
 
   }
