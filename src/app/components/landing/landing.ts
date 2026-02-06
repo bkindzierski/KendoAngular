@@ -116,7 +116,7 @@ export class Landing  {
     //   data: orderBy(this.#stores().slice(this.skip, this.skip + this.pageSize), this.sort),
     //   total: this.#stores().length
     // }
-    return this.gridData = process(this.#stores(), this.gridState)
+    return this.gridData = process(this.#stores(), this.gridState);
     
   });
 
